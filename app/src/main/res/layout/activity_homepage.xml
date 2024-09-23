@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/background">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Select a Topic"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mid_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:id="@+id/buttonTechnology"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:text="Technology"
+            android:textColor="@color/white"
+            android:backgroundTint="#03177E"/>
+
+        <Button
+            android:id="@+id/buttonGeography"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Geography"
+            android:backgroundTint="#03177E"/>
+
+        <Button
+            android:id="@+id/buttonMovies"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Movies"
+            android:backgroundTint="#03177E"/>
+
+        <Button
+            android:id="@+id/buttonMaths"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Maths"
+            android:backgroundTint="#03177E"/>
+
+    </LinearLayout>
+
+</LinearLayout>
